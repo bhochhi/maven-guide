@@ -1,4 +1,5 @@
-
+https://maven.apache.org/pom.html#Dependencies
+https://maven.apache.org/guides/mini/guide-multiple-modules.html
 
 ###[When to us Aggregation(or Multi-Module) Maven project](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
 
