@@ -1,6 +1,6 @@
 
 
-###[Understanding Aggregation(or Multi-Module) Maven project](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
+###[When to us Aggregation(or Multi-Module) Maven project](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
 
 * An aggregate project will have multiple modules.
 * An aggregate project has __pom__ as packaging type. 
