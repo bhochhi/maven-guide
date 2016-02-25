@@ -24,7 +24,13 @@ https://maven.apache.org/guides/mini/guide-multiple-modules.html
   </modules>
 </project>
 ```
-*  
+*  A machanism how maven handles the multi modules project is call __reactor__, It collects, sorts and builds various modules.
+
+That's brief about that multi modules project is. When to use such structure? When you want to decouple your section of codes that can reusable into multiple projects, you want to compartmentalize into single-alone components. That's when you creating multi modules project makes sense. But can't you acheive such goals by just creating separte projects and referencing as a parent POM? Yes you could but some other benefits could be 
+  * you don't have to build each projects separately, or even resolve the dependencies. Reactor handles that for you. You can have just one command to do all builds. 
+  * Another good benefit I see if your deployment strategy. You may have seperate webapps as the modules and they both could depends on various modules. If you need to create the deploy such webapps seperately into various servers, you can simple create all those profiles into aggregate project so that your strategies are on same file.
+  
+Finally checkout the example multi modules project in my [repo]()
 
 ###[what are plugins? How to build one?]()
 
