@@ -24,7 +24,11 @@ https://maven.apache.org/guides/mini/guide-multiple-modules.html
   </modules>
 </project>
 ```
-* 
+*  
+
+###[what are plugins? How to build one?]()
+
+###[Understand various elements of POM](https://maven.apache.org/pom.html)
 
 ###[What is transitive dependencies?]()
 
