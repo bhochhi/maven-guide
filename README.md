@@ -41,7 +41,7 @@ Plugins are collection of one or more goals.
 
 ###[Maven depenency Managements]()
 
-###[Maven lifecycles and goals]()
+###[Maven lifecycles and goals](https://github.com/bhochhi/maven-guide/wiki/Maven-lifecycle,-phases-and-goals)
 
 
-###[Understanding Maven]()
+###[Understanding Maven](https://github.com/bhochhi/maven-guide/wiki/Understanding-Maven)
