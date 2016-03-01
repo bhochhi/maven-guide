@@ -32,7 +32,8 @@ That's brief about that multi modules project is. When to use such structure? Wh
 
 So, final words, know what your really want before you decide for multi-module project. and Check out my [repo]() for some demonstration.
 
-###[what are plugins? How to build one?]()
+###[what are plugins? How to build one?]
+Plugins are collection of one or more goals. A goal is a "Unit of work" in maven, a specific task that may be executed as a standalone goal or along with other goals as part of a larger build. Examples are _test_ goal in surefire plugin, _compile_ goal in compiler plugin. 
 
 ###[Understand various elements of POM](https://maven.apache.org/pom.html)
 
