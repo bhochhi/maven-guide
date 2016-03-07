@@ -38,7 +38,11 @@ Plugins are collection of one or more goals.
 ###[Understand various elements of POM](https://maven.apache.org/pom.html)
 
 ###[What is transitive dependencies?]()
-When your project A depends on Project B but project B itself depends on Project C and D, We can project C and D a transitive dependencies of project A. With Maven, you just need to define Project B as your dependencies. 
+When your project A depends on Project B but project B itself depends on Project C and D, We can project C and D a transitive dependencies of project A. With Maven, you just need to define Project B as your dependencies. Maven will be able to bring in C and D implicitly which will be needed for your project to compile. Things get little interesting when:
+ 
+ 1. A project depends on different version of project(different level dependencies, A and B different level). For instance, project A depends on project E ver 1.0 and Project B depends on E ver 2.0.
+ 2. Project C and D project(same lavel) depends different version of Project E.
+ 
 
 ###[Maven depenency Managements]()
 
