@@ -1,5 +1,6 @@
 http://books.sonatype.com/mvnex-book/reference/multimodule.html
-http://books.sonatype.com/mvnex-book/reference/simple-project-sect-simple-core.html
+
+http://books.sonatype.com/mvnex-book/reference/customizing.html
 
 ###[When to us Aggregation(or Multi-Module) Maven project](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
 
