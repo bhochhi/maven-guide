@@ -38,8 +38,10 @@ Plugins are collection of one or more goals.
 ###[Understand various elements of POM](https://maven.apache.org/pom.html)
 
 ###[What is transitive dependencies?]()
+When your project A depends on Project B but project B itself depends on Project C and D, We can project C and D a transitive dependencies of project A. With Maven, you just need to define Project B as your dependencies. 
 
 ###[Maven depenency Managements]()
+
 
 ###[Maven lifecycles and goals](https://github.com/bhochhi/maven-guide/wiki/Maven-lifecycle,-phases-and-goals)
 
